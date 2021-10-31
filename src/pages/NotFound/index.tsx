@@ -1,5 +1,14 @@
-export function NotFound(){
-    return(
-        <h1>Página não encontrada!</h1>
+import {Container,Content,Linha, Background} from './style';
+export function NotFound() {
+    return (
+        <Container>
+        <Content>
+            <Linha>
+            <h2>Página não encontrada</h2>
+            </Linha>
+        
+        </Content>
+        <Background />
+    </Container>
     )
 }

@@ -1,8 +1,8 @@
-import {Container} from './style';
+import { Container } from './style';
 
-export function ActivyTable(){
+export function ActivyTable() {
 
-    return(
+    return (
         <Container>
             <table>
                 <thead>

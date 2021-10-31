@@ -1,11 +1,11 @@
 import { Container, Content } from "./style";
 
-export function Header(){
-    return(
+export function Header() {
+    return (
         <Container>
             <Content>
                 <h1>My Activies Space</h1>
-                <div>  
+                <div>
                     <button type="button">
                         Nova Unidade Curricular
                     </button>

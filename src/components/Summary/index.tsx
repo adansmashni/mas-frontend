@@ -1,8 +1,8 @@
-import {GoNote, GoFile, GoGraph} from 'react-icons/go';
+import { GoNote, GoFile, GoGraph } from 'react-icons/go';
 import { Container } from './style';
 
-export function Summary(){
-    return(
+export function Summary() {
+    return (
         <Container>
             <div>
                 <header>
@@ -26,6 +26,6 @@ export function Summary(){
                 <strong>9.18</strong>
             </div>
         </Container>
-        
+
     )
 }
