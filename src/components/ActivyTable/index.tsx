@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import {format, parseISO} from 'date-fns'
-import { Container } from './styles';
+import { Container } from './style';
 import api from '../../services/api';
 
 interface CourseUnit {
