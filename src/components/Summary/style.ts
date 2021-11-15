@@ -23,6 +23,7 @@ export const Container = styled.div`
             }
         }
 
+
         strong {
             display: block;
             margin-top: 1rem;
@@ -35,5 +36,4 @@ export const Container = styled.div`
         background: var(--greenDark);
         color: #fff;
     }
-}
-`
+`;
